@@ -1,5 +1,5 @@
 body{
-    font-size: Arial;
+    font-family: Arial;
     background-color: #f4f4f4;
     padding: 30px;
     color: #333;
@@ -11,7 +11,7 @@ body{
 .app{
     max-width: 600px;
     margin: 0 auto 300px;
-    background-color: #efefef;
+    background-color: #e4e4e4;
     padding: 20px 30px;
     border-radius: 10px;
 
@@ -86,5 +86,23 @@ input,select{
     margin-bottom: 10px;
     border: 1px solid #DDD;
     width: 100%;
+}
+
+.filter, .search {
+
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px ;
+    padding-bottom: 20px;
+
+}
+
+.filter-options{
+    display: flex;
+    justify-content: space-between;
+    gap:3rem
+}
+
+.filter-options div {
+    flex: 1 1 0;
 }
 
